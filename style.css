@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px white, -2px -2px 2px white, 2px -2px 2px white, -2px 2px 2px white;
+    background-color: #f5f5f5;
+    background-image: url(imagens/bigstock-Roast-Meat-To-The-Stake-A-Met-390086821.jpg);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: none;
+    background-position: center;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 15px;
+    background: linear-gradient(45deg, #00501b, #f80000, #ffe601);
+    color: black;
+    border: nome;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white, 1px -1px 1px white, -1px 1px 1px white;
+    transition: background 0.3s ease;
+}
+
+button :hover {
+    background-color: #218838;
+}
+
+#resultado {
+    margin-top: 20px;
+}
